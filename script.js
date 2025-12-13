@@ -56,7 +56,7 @@ function renderKeyboard() {
         keyboard.appendChild(row);
     });
 
-    // Ligne espace et supprimer la derniere lettre
+    // Ligne espace et le delete
     const lastRow = document.createElement("div");
     lastRow.className = "row";
 
