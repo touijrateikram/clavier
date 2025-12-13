@@ -5,12 +5,12 @@ function updateDisplay() {
 }
 
 function taper_lettre_signe(taper) {
-    texteEnCours += taper;
+    texteEnCours = texteEnCours + taper;
     updateDisplay();
 }
 
 function taper_espace() {
-    texteEnCours += ' ';
+    texteEnCours = texteEnCours + ' ';
     updateDisplay();
 }
 
@@ -56,7 +56,7 @@ function renderKeyboard() {
         keyboard.appendChild(row);
     });
 
-    // Ligne espace et le delete
+    // Ligne espace et supprimer la derniere lettre
     const lastRow = document.createElement("div");
     lastRow.className = "row";
 
