@@ -4,8 +4,11 @@
 Développement d'un clavier virtuel interactif permettant à l'utilisateur de :
 
 Saisir du texte à l'aide d'un clavier virtuel ;
+
 Ajouter les caractères sélectionnés dans une zone de saisie ;
+
 Supprimer le dernier caractère saisi grâce à la touche « Supprimer » ;
+
 Visualiser une interface simple et intuitive reproduisant le fonctionnement d'un clavier.
 
 Technologies : HTML, CSS, JavaScript.
